@@ -1,6 +1,6 @@
 # 🎬 Movie Search App
 
-A simple web application to search for movies using the OMDb API.  
+A simple web application to search for movies using the **OMDb API**.  
 It displays details such as **Title, Year, Release Date, IMDb Rating, and Poster**.
 
 ---
@@ -17,20 +17,21 @@ It displays details such as **Title, Year, Release Date, IMDb Rating, and Poster
 - **HTML5**  
 - **CSS3**  
 - **JavaScript (Fetch API)**  
-- **OMDb API** (for movie data)
+- **OMDb API** (for movie data)  
 
 ---
 
+## 🌐 Live Demo
+👉 [Click here to view the Movie Search App](https://chandana351.github.io/movie-search-app/)
+
+---
 
 ## 📂 How to Run
 1. Clone or download this repository.  
 2. Open `index.html` in your browser.  
-3. Type a movie name (e.g., `Avengers`, `Titanic`, `3 Idiots`) and click **Search**.
+3. Type a movie name (e.g., `Avengers`, `Titanic`, `3 Idiots`) and click **Search**.  
 
----
 
-  ## 📸 Screenshot
-
-![App Screenshot](./images/screenshot.png)
-
+## 📸 Screenshot
+![App Screenshot](images/screenshot.png)
 
