@@ -21,14 +21,16 @@ It displays details such as **Title, Year, Release Date, IMDb Rating, and Poster
 
 ---
 
-## 📸 Screenshot
-
-![App Screenshot](./images/screenshot.png)
-
----
 
 ## 📂 How to Run
 1. Clone or download this repository.  
 2. Open `index.html` in your browser.  
-3. Type a movie name (e.g., `Avengers`, `Titanic`, `3 Idiots`) and click **Search**.  
+3. Type a movie name (e.g., `Avengers`, `Titanic`, `3 Idiots`) and click **Search**.
+
+---
+
+  ## 📸 Screenshot
+
+![App Screenshot](./images/screenshot.png)
+
 
