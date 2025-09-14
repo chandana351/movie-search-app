@@ -25,7 +25,7 @@ It displays details such as **Title, Year, Release Date, IMDb Rating, and Poster
 ---
 
 ## 📸 Screenshot
-![App Screenshot](./screenshot.png)
+
 
 ---
 
