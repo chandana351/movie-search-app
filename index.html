@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Grade Checker</title>
+</head>
+<body>
+  <h2>🎓 Student Grade Checker</h2>
+  <script>
+    // Array of 20 students
+    const students = [
+      { rollNo: 1, name: "Aarav", marks: 92 },
+      { rollNo: 2, name: "Riya", marks: 78 },
+      { rollNo: 3, name: "Karan", marks: 67 },
+      { rollNo: 4, name: "Meena", marks: 45 },
+      { rollNo: 5, name: "Sahil", marks: 88 },
+      { rollNo: 6, name: "Pooja", marks: 95 },
+      { rollNo: 7, name: "Amit", marks: 56 },
+      { rollNo: 8, name: "Neha", marks: 73 },
+      { rollNo: 9, name: "Kabir", marks: 81 },
+      { rollNo: 10, name: "Simran", marks: 34 },
+      { rollNo: 11, name: "Raj", marks: 76 },
+      { rollNo: 12, name: "Isha", marks: 64 },
+      { rollNo: 13, name: "Dev", marks: 98 },
+      { rollNo: 14, name: "Sneha", marks: 53 },
+      { rollNo: 15, name: "Vikram", marks: 85 },
+      { rollNo: 16, name: "Ananya", marks: 91 },
+      { rollNo: 17, name: "Manish", marks: 47 },
+      { rollNo: 18, name: "Kavya", marks: 69 },
+      { rollNo: 19, name: "Aryan", marks: 83 },
+      { rollNo: 20, name: "Tina", marks: 74 }
+    ];
+
+    const totalStudents = students.length;
+
+    if (totalStudents === 0) {
+      console.log("No students found!");
+    } else {
+      // make functions global (so you can use in console)
+      window.getRandomStudent = () => 
+        students[Math.floor(Math.random() * students.length)];
+
+      window.calculateGrade = (marks) => {
+        if (marks >= 90) return "A";
+        else if (marks >= 75) return "B";
+        else if (marks >= 50) return "C";
+        else return "F";
+      };
+
+      window.printResult = (student) => {
+        const grade = window.calculateGrade(student.marks);
+        console.log(`🎓 Student: ${student.name} (Roll No: ${student.rollNo})`);
+        console.log(`Marks: ${student.marks} → Grade: ${grade}`);
+      };
+
+      // run once automatically
+      const randomStudent = window.getRandomStudent();
+      window.printResult(randomStudent);
+    }
+  </script>
+</body>
+</html>
